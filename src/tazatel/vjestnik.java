@@ -5,6 +5,7 @@
  */
 package tazatel;
 
+import tazatel.dataStructure.OtazkaData;
 import AbstractList.AbstractList;
 import AbstractList.IAbstractList;
 
@@ -13,13 +14,13 @@ import AbstractList.IAbstractList;
  * @author vojta3310
  */
 public class vjestnik {
-  private IAbstractList<otazka> otazky;
-  private otazka aktualni;
+  private IAbstractList<OtazkaData> otazky;
+  private OtazkaData aktualni;
   private int hotovo;
   
   public void load(String xml){  //nacte z xml nak
    otazky=new AbstractList();
-   otazky.add(new otazka("STT1","víroba Fe", "stt/1.pdf", 0));
+   otazky.add(new OtazkaData("STT1","výroba Fe", "stt/1.pdf", 0));
   }
   
   public void Save(String xml){  //ulozi do xml
@@ -30,7 +31,7 @@ public class vjestnik {
     
   }
 
-  public otazka getAktualni() { //vraci aktualni
+  public OtazkaData getAktualni() { //vraci aktualni
     return aktualni;
   }
 

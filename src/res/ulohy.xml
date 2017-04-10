@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ulohy>
+	<predmet nazev="SST">
+		<uloha id="1" zadani="výroba Fe" dokument="stt/1.pdf"/>
+	</predmet>
+	<predmet nazev="INF">
+		<uloha id="1" zadani="Jazyk a získávání informací, informatika" dokument="inf/1.pdf"/>
+		<uloha id="2" zadani="Základy informatiky" dokument="inf/2.pdf"/>
+		<uloha id="3" zadani="Vstupní zařízení" dokument="inf/3.pdf"/>
+		<uloha id="4" zadani="Sítě" dokument="inf/4.pdf"/>
+	</predmet>
+</ulohy>
